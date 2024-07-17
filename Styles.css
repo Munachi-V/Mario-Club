@@ -30,10 +30,22 @@ main img {
     width: 100%;
     border-bottom: red 8px solid;
 }
-main div h1 {
+main div.main-content{
+    margin: 30px 60px;
+}
+main div.main-content h1 {
     text-align: center;
     color: red;
 }
-main div p {
+main div.main-content p {
+    text-align: justify;
+    font-size: 30px;
+    line-height: 60px;
+}
+/* footer styles */
+footer h5 {
+    background-color: grey;
     text-align: center;
+    padding: 15px;
+    color: white;
 }
