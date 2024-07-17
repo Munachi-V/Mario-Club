@@ -23,6 +23,17 @@ header div.navbar {
 header div a.navbar-link {
     color: white;
     margin: 0px 120px;
+    text-decoration: none;
 }
 /* main styles */
-
+main img {
+    width: 100%;
+    border-bottom: red 8px solid;
+}
+main div h1 {
+    text-align: center;
+    color: red;
+}
+main div p {
+    text-align: center;
+}
