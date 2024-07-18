@@ -26,7 +26,7 @@ header div a.navbar-link {
     text-decoration: none;
 }
 /* main styles */
-main img {
+main img.Mario-pic {
     width: 100%;
     border-bottom: red 8px solid;
 }
@@ -58,7 +58,31 @@ main div.Gallery-images{
     margin: 40px;
     text-align: center;
 }
-main div img {
+main div.Gallery-images img {
     width: 45%;
     margin: 10px;
+}
+/* Friends Styles */
+main img.Mario_friends {
+    width: 100%;
+}
+main div.Main-content h1 {
+    text-align: center;
+    color: red;
+}
+main div.Main-content p {
+    text-align: center;
+}
+main div.Friends-container {
+    background-color: lightgray;
+    text-align: center;
+    margin: 135px;
+    border-radius: 30px;
+}
+main div.Friends-container h1{
+    color: red;
+}
+main div.Friend-item {
+     margin: 30px 120px; 
+    padding: 30px;
 }
