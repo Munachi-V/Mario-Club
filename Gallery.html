@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <link rel="stylesheet" href="Styles.css">
+    <style>
+     .img-names {
+        position: relative;
+        display: inline-block;
+     }
+     .img-names p {
+        position: absolute;
+        top: 85%;
+        left: 40%;
+        background-color: red;
+        color: white;
+        padding: 10px;
+     }
+    </style>
 </head>
 <body>
     <header>
@@ -19,13 +33,24 @@
         </div>
     </header>
     <main>
+        <h3>Gallery</h3>
         <div class="Gallery-images">
-            <h3>Gallery</h3>
-            <img src="Img/thumb-1.png" alt="">
-            <img src="Img/thumb-2.png" alt="">
-            <img src="Img/thumb-3.jpg" alt="">
-            <img src="Img/thumb-4.jpg" alt="">
-        </div>
+            <div class="img-names">
+                <img src="Img/thumb-1.png" alt="">
+                <p>Mountain</p>
+            </div>
+            <div class="img-names">
+                <img src="Img/thumb-2.png" alt="">
+                <p>Underwater</p>
+            </div>
+            <div class="img-names">
+                <img src="Img/thumb-3.jpg" alt="">
+                <p>Artwork</p>
+            </div>
+           <div class="img-names">
+                <img src="Img/thumb-4.jpg" alt="">
+                <p>Monsters</p>
+           </div>
     </main>
     <footer>
         <h5>2024 James Idabor</h5>

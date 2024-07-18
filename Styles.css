@@ -50,17 +50,18 @@ footer h5 {
     color: white;
 }
 /* Gallery Styles */
-main div h3 {
+main h3 {
     color: red;
     font-size: 50px;
-}
-main div.Gallery-images{
-    margin: 40px;
     text-align: center;
 }
 main div.Gallery-images img {
-    width: 45%;
+    text-align: center;
+    border-bottom: red 8px solid;
     margin: 10px;
+}
+main div.Gallery-images{
+    text-align: center;
 }
 /* Friends Styles */
 main img.Mario_friends {
@@ -76,13 +77,14 @@ main div.Main-content p {
 main div.Friends-container {
     background-color: lightgray;
     text-align: center;
-    margin: 135px;
+    margin: 135px; 
     border-radius: 30px;
+    padding: auto;
 }
 main div.Friends-container h1{
     color: red;
 }
 main div.Friend-item {
      margin: 30px 120px; 
-    padding: 30px;
+    padding: auto;
 }
