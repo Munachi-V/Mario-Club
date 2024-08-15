@@ -10,3 +10,9 @@ This is also part of my Practicum/Internship at **Danisoft Solutions Limited**.
 ### Author
 
 Built by [ James Idabor](https://www.github.com/dabz99)
+
+- Princess Peach
+- Bowser
+- Luigi
+- Toad
+- Yoshi
