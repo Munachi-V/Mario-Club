@@ -11,6 +11,8 @@ This is also part of my Practicum/Internship at **Danisoft Solutions Limited**.
 
 Built by [ James Idabor](https://www.github.com/dabz99)
 
+## Mario's Friends
+
 - Princess Peach
 - Bowser
 - Luigi
